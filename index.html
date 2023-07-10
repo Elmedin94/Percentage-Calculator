@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Prozentrechner</h1>
+    <p>X ist wieviel % von Y?</p>
+    <form id="xIsWhatPercentOfY">
+        <input type="text" id="numField1"> ist wieviel % von
+        <input type="text" id="numField2">?<br><br>
+        <input type="submit" value="Calculate">
+    </form>
+    <h3 id="resultField">Resultat: 100%</h3>
+    <script type="text/javascript" src="calc.js"></script>
+</div>
+</body>
+</html>
+
